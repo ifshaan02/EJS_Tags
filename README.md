@@ -1,2 +1,4 @@
 # EJS_Tags
 EJS Tags Demo is a lightweight Node.js and Express project that showcases how to render dynamic content using Embedded JavaScript (EJS) templates. It demonstrates passing variables, conditional rendering, looping through arrays, rendering raw HTML safely, and using partials (like a footer include) within EJS templates.
+
+This project demonstrates the use of EJS with Express to build a simple dynamic web page. It passes data such as a title, current seconds, a list of fruits, and raw HTML into an EJS template, which conditionally displays content depending on whether the current second is even or odd. The project also highlights the difference between escaped (<%= %>) and unescaped (<%- %>) output, and shows how to include reusable partials like a footer. To run the app, install dependencies with npm install, start the server using node server.js, and visit http://localhost:3000 in your browser to view the rendered page.
